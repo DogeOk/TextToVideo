@@ -29,7 +29,11 @@ python -m venv venv
 ```
 pip install -r requirements.txt
 ```
-7. Запустить проект:
+7. Прописать migrate для работы БД:
+```
+python manage.py migrate
+```
+8. Запустить проект:
 ```
 python manage.py runserver
 ```
