@@ -36,7 +36,7 @@ python manage.py runserver
 ## Docker
 1. Собрать образ
 ```
-docker build -t text_to_video:latest 
+docker build -t text_to_video:latest https://github.com/DogeOk/TextToVideo.git#main:.
 ```
 2. Запустить контейнер
 ```
